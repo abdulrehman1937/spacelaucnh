@@ -34,7 +34,7 @@ function App() {
   const [catalogs] = useState([...catalogsList]);
   const [activeIndex, setActiveIndex] = useState(0);
   const [slideTimer, setSlideTimer] = useState(false);
-  const [slideDuration] = useState(1000);
+  const [slideDuration] = useState(3000);
   const timerout = useRef();
   useEffect(() => {
     if (slideTimer) {
